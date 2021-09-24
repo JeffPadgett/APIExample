@@ -33,5 +33,10 @@ namespace Commander.Data.Repository
         {
             throw new NotImplementedException();
         }
+
+        void ICommanderRepo.CreateCommand(Command cmd)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
